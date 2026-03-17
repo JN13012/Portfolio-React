@@ -155,7 +155,7 @@ const Profile = () => {
               <a
                 href="/mon-cv.pdf"
                 download="CV_Nom_Prenom.pdf"
-                className="w-full relative px-6 py-3 bg-black text-cyber border border-cyber font-mono text-xs uppercase tracking-widest hover:bg-cyber/60 hover:text-black hover:animate-flicker transition-all duration-300 text-center inline-block"
+                className="w-full relative px-6 py-3 bg-black text-cyber border border-cyber font-mono text-xs uppercase tracking-widest hover:bg-cyber/70 hover:text-black hover:animate-flicker transition-all duration-300 text-center inline-block"
               >
                 Download_CV.pdf
               </a>
