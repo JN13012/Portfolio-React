@@ -18,29 +18,52 @@
   --animate-flicker: flicker 0.15s infinite;
 
   /* --- 4. KEYFRAMES (LOGIQUE DES ANIMATIONS) --- */
-  
+
   /* Effet de lueur pulsée sur le texte */
   @keyframes glow {
-    0% { text-shadow: 0 0 5px rgba(74, 222, 128, 0.2); }
-    100% { text-shadow: 0 0 20px rgba(74, 222, 128, 0.6); }
+    0% {
+      text-shadow: 0 0 5px rgba(74, 222, 128, 0.2);
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(74, 222, 128, 0.6);
+    }
   }
 
   /* Effet de ligne de scan (laser) */
   @keyframes scan {
-    0% { top: 0%; opacity: 0; }
-    10% { opacity: 1; }
-    90% { opacity: 1; }
-    100% { top: 100%; opacity: 0; }
+    0% {
+      top: 0%;
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
   }
 
   /* Effet de clignotement électrique (Flicker) */
   /* Les paliers irréguliers créent un aspect "bug" réaliste */
   @keyframes flicker {
-    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% { 
-      opacity: 1; 
+    /* Phase stable : l'élément est parfaitement visible de 0% à 80% */
+    0%,
+    80%,
+    85%,
+    95%,
+    100% {
+      opacity: 1;
     }
-    20%, 21.999%, 63%, 63.999%, 65%, 69.999% { 
-      opacity: 0.4; 
+    /* Phase de "bug" : les coupures sont regroupées entre 81% et 94% */
+    81%,
+    84.999%,
+    91%,
+    94.999% {
+      opacity: 0.4;
     }
   }
 }
