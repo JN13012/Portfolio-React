@@ -9,10 +9,10 @@ const Profile = () => {
     { label: "Niveau", value: "Master of Science", color: "text-white" },
   ];
 
-  const socTools = ["Splunk", "Wireshark", "Nmap", "BurpSuite", "TryHackMe"];
+  const socTools = ["GITHUB", "LINKDIN", "...", "....", "..."];
 
   const monitoringLogs = [
-    { msg: "Analyses SIEM", level: "HIGH", color: "text-red-500" },
+    { msg: "Investissement personnel / Presentation SIEM", level: "HIGH", color: "text-red-500" },
     { msg: "Port scan detected", level: "MEDIUM", color: "text-yellow-400" },
     { msg: "New device connected", level: "LOW", color: "text-green-400" },
     { msg: "Suspicious traffic", level: "HIGH", color: "text-red-500" },
