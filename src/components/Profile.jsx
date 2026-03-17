@@ -149,6 +149,94 @@ const Profile = () => {
                 ))}
               </div>
             </div>
+<div className="pt-6 space-y-2">
+  <p className="text-base text-cyber/65 uppercase font-bold tracking-widest">
+    SOC_Toolkit
+  </p>
+  <div className="flex flex-wrap gap-2 font-mono text-xs">
+    {["Splunk", "Wireshark", "Nmap", "BurpSuite", "TryHackMe"].map((tool) => (
+      <span
+        key={tool}
+        className="border border-cyber/30 px-2 py-1 text-white/60 hover:text-cyber hover:border-cyber transition-all"
+      >
+        {tool}
+      </span>
+    ))}
+  </div>
+</div>
+
+            <div className="text-xs font-mono uppercase tracking-widest text-red-400 animate-pulse">
+  Threat_Level: Elevated
+</div>
+
+
+{/* SECTION SOC MONITORING */}
+<div className="space-y-3 pt-6">
+  <div className="group inline-block">
+    <p className="text-base text-cyber/65 group-hover:text-cyber uppercase font-bold tracking-widest transition-all duration-300">
+      SOC_Monitoring
+    </p>
+    <div className="h-[2px] w-0 group-hover:w-full bg-cyber transition-all duration-500"></div>
+  </div>
+
+  <div className="bg-black/60 border border-cyber/20 p-3 font-mono text-xs space-y-2 h-32 overflow-hidden">
+    {[
+      { msg: "Investissement personne", level: "SOC / SIEM HIGH" },
+      { msg: "Port scan detected", level: "MEDIUM" },
+      { msg: "New device connected", level: "LOW" },
+      { msg: "Suspicious outbound traffic", level: "HIGH" },
+    ].map((log, i) => (
+      <div key={i} className="flex justify-between">
+        <span className="text-white/60">{log.msg}</span>
+        <span
+          className={`font-bold ${
+            log.level === "HIGH"
+              ? "text-red-500"
+              : log.level === "MEDIUM"
+              ? "text-yellow-400"
+              : "text-green-400"
+          }`}
+        >
+          {log.level}
+        </span>
+      </div>
+    ))}
+  </div>
+</div>
+
+<div className="space-y-3 pt-4">
+  <div className="group inline-block">
+    <p className="text-base text-blue-400/70 group-hover:text-blue-400 uppercase font-bold tracking-widest transition-all duration-300">
+      System_Logs
+    </p>
+    <div className="h-[2px] w-0 group-hover:w-full bg-blue-400 transition-all duration-500"></div>
+  </div>
+
+  <div className="bg-blue-900/10 border border-blue-400/20 p-3 font-mono text-xs space-y-2 h-28 overflow-hidden">
+    {[
+      "System initialized",
+      "User authentication success",
+      "Scheduled scan completed",
+      "Firewall rules updated",
+    ].map((log, i) => (
+      <div key={i} className="flex items-center gap-2 text-blue-300">
+        <span className="text-blue-500">[INFO]</span>
+        <span className="opacity-80">{log}</span>
+      </div>
+    ))}
+  </div>
+</div>
+
+
+<div className="text-xs font-mono uppercase tracking-widest flex items-center gap-2">
+  <span className="text-white/50">Threat_Level:</span>
+  <span className="text-red-500 animate-pulse">HIGH</span>
+</div>
+
+<div className="flex items-center gap-2">
+  <div className="w-2 h-2 bg-red-500 rounded-full animate-ping"></div>
+  <span className="text-red-400 font-mono text-xs">CRITICAL INCIDENT</span>
+</div>
 
             {/* BOUTON DOWNLOAD : Effet Flicker (ancien effet titre) */}
             <div className="pt-8">
