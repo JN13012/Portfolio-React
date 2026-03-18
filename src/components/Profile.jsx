@@ -167,8 +167,8 @@ const Profile = () => {
                 <a
                   key={tool.name}
                   href={tool.url}
-                  target="_blank" // Ouvre dans un nouvel onglet
-                  rel="noopener noreferrer" // Sécurité indispensable pour les liens externes
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xs font-mono border border-cyber/20 px-3 py-2 text-zinc-400 hover:border-cyber hover:text-cyber hover:bg-cyber/5 transition-all cursor-crosshair"
                 >
                   {tool.name}
