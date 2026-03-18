@@ -47,23 +47,19 @@
     }
   }
 
-  /* Effet de clignotement électrique (Flicker) */
-  /* Les paliers irréguliers créent un aspect "bug" réaliste */
+/* On accélère un peu la cadence pour un effet plus nerveux */
+  --animate-flicker: flicker 1.5s infinite;
+
   @keyframes flicker {
-    /* Phase stable : l'élément est parfaitement visible de 0% à 80% */
-    0%,
-    80%,
-    85%,
-    95%,
-    100% {
+    /* État normal : Pleine opacité et lueur légère */
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
       opacity: 1;
+      filter: drop-shadow(0 0 2px var(--color-cyber));
     }
-    /* Phase de "bug" : les coupures sont regroupées entre 81% et 94% */
-    81%,
-    84.999%,
-    91%,
-    94.999% {
-      opacity: 0.4;
+    /* État "Bug" : Coupure brutale et disparition de la lueur */
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+      opacity: 0.1;
+      filter: none;
     }
   }
 }
