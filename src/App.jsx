@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="bg-black min-h-screen font-mono">
       <Navbar />
-      <div className="w-[80%] max-w-[1800px] mx-auto px-6 py-10">
+      <div className="w-[95%] max-w-[1800px] mx-auto px-6 py-10">
         <Presentation />
         <Profile />
         <Formations />
