@@ -31,8 +31,9 @@ const Presentation = () => {
       <p className="max-w-3xl text-center text-gray-400 text-sm md:text-lg leading-relaxed mb-12 font-mono">
         Ancien militaire et mécanicien de compétition.
         <br className="hidden md:block" />
-        Rigueur opérationnelle & expertise technique pour infrastructures
-        critiques.
+
+
+        AVEC TOUTE LES COMPETENCES QUI DEFILES !!!!!!!!!!!!
       </p>
 
       {/* Actions */}
