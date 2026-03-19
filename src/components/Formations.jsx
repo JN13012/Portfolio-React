@@ -129,7 +129,7 @@ const Formations = () => {
     {
       id: "01",
       diplome:
-        "Master of Science - Architecte Systèmes d'Information (Spé. Cybersécurité)",
+        "Master of Science - Architecte Systèmes d'Information (Spé. Cybersécurité) + FAIRE LIEN CLIQUABLE PARTOUT PAS JUSTE DIPLOME",
       url: "https://www.epitech.eu/formation-alternance/master-of-science-cybersecurite/",
       ecole: "EPITECH - MARSEILLE (13)",
       date: "2025 - 2028",
