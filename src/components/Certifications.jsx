@@ -32,10 +32,20 @@ const Certifications = () => {
       image: PRE_SECURITY_IMG,
       url: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZCUCFFIQO5.pdf",
       description:
-        "Apprentissage des bases des réseaux, du Web, de Linux et de Windows pour la cybersécurité. SI ON CLIQUE SUR l'IMAGE L'imAGE PLEIN ECRAN",
+        "Introduction à la cybersécurité : exploration des fondamentaux informatiques, réseaux, systèmes d’exploitation, web, codage de base, et concepts d’attaque et de défense.",
       difficulte: 1,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "Networking",
+        "Linux",
+        "Windows",
+        "Python",
+        "JavaScript",
+        "Web Fundamentals",
+        "OS Security",
+        "SQL Basics",
+        "Cryptography",
+      ],
+      duration: "8 Hours",
     },
     {
       titre: "Cyber Security 101",
@@ -44,110 +54,178 @@ const Certifications = () => {
       date: "2025",
       image: CYBERSECYRITY_101,
       url: "https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-VEMPGXQSXD.pdf",
-      description: "Introduction aux fondamentaux de la sécurité informatique.",
+      description:
+        "Concepts et pratiques en cybersécurité : réseaux, cryptographie, systèmes Linux et Windows, Active Directory, sécurité offensive et défensive, outils et techniques d’exploitation, et principes de réponse aux incidents.",
       difficulte: 3,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "Networking",
+        "Linux",
+        "Windows",
+        "Active Directory",
+        "Cryptography",
+        "Web Hacking",
+        "Offensive Security Tools",
+        "Defensive Security Tools",
+        "Incident Response",
+        "SIEM",
+        "Firewalls",
+        "IDS",
+      ],
+      duration: "46 Hours",
     },
     {
       titre: "Introduction to Artificial Intelligence",
       plateforme: "Coursera (IBM)",
-      cat: "COURSERA (IBM)",
+      cat: "COURSERA",
       date: "2025",
       image: Introduction_to_AI,
       url: "https://coursera.org/share/466abca0568c44dd7e3d3258a47e99ee",
       description:
-        "Apprentissage des bases des réseaux, du Web, de Linux et de Windows pour la cybersécurité.",
+        "Acquisition des fondamentaux de l’IA incluant machine learning, deep learning et IA générative, avec application à des cas métiers et intégration des enjeux éthiques.",
       difficulte: 1,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "Machine Learning",
+        "Deep Learning",
+        "Neural Networks",
+        "NLP",
+        "Generative AI",
+        "Responsible AI",
+      ],
+      duration: "12 Hours",
     },
     {
       titre: "Generative AI - Introduction and Applications",
       plateforme: "Coursera (IBM)",
-      cat: "COURSERA (IBM)",
+      cat: "COURSERA",
       date: "2025",
       image: Generative_AI_Introduction,
       url: "https://coursera.org/share/7a06aa71ef5a258e81ad1af7c66a6f80",
       description:
-        "Apprentissage des bases des réseaux, du Web, de Linux et de Windows pour la cybersécurité.",
+        "Introduction aux concepts clés de l’IA générative, ses modèles, outils et cas d’usage concrets dans différents secteurs.",
       difficulte: 1,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "Generative AI",
+        "ChatGPT",
+        "Machine Learning",
+        "AI/ML Foundations",
+        "AI Personalization",
+        "Real-Time Data",
+      ],
+      duration: "8 Hours",
     },
     {
       titre: "Generative AI - Prompt Engineering Basics",
       plateforme: "Coursera (IBM)",
-      cat: "COURSERA (IBM)",
+      cat: "COURSERA",
       date: "2025",
       image: Prompt_Engineering,
       url: "https://coursera.org/share/3ce0e969ef13867efe203fe6f1bdbf0d",
       description:
-        "Apprentissage des bases des réseaux, du Web, de Linux et de Windows pour la cybersécurité.",
+        "Fondamentaux du prompt engineering appliqué à l’IA générative, incluant les bonnes pratiques, techniques d’optimisation et outils associés.",
       difficulte: 1,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "Prompt Engineering",
+        "ChatGPT",
+        "Generative AI",
+        "Prompt Patterns",
+        "AI Workflows",
+        "Context Management",
+      ],
+      duration: "9 Hours",
     },
     {
       titre: "Introduction to Software Engineering",
       plateforme: "Coursera (IBM)",
-      cat: "COURSERA (IBM)",
+      cat: "COURSERA",
       date: "2025",
       image: Software_Engineering,
       url: "https://coursera.org/share/1f4b38f67dfcdb136733cd9ec6d77da7",
       description:
-        "Apprentissage des bases des réseaux, du Web, de Linux et de Windows pour la cybersécurité.",
-      difficulte: 1,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+        "Introduction aux principes du génie logiciel, incluant le cycle de vie (SDLC), les architectures, les patterns de conception et les bases du développement en Python.",
+      difficulte: 2,
+      stack: [
+        "Python",
+        "SDLC",
+        "Software Architecture",
+        "Design Patterns",
+        "Version Control",
+        "Web Applications",
+      ],
+      duration: "14 Hours",
     },
     {
       titre: "Introduction to HTML, CSS & JavaScript",
       plateforme: "Coursera (IBM)",
-      cat: "COURSERA (IBM)",
+      cat: "COURSERA",
       date: "2025",
       image: Intro_HTML_CSS_JavaScript,
       url: "https://coursera.org/share/19c6fb4f7b7534c8d92b934ad11dc2f4",
-      description: `Describe the Web Application Development Ecosystem and terminology like front-end developer, back-end, server-side, and full stack. 
-                    Identify the developer tools, online editors like JSFiddle, and integrated development environments (IDEs) for building and testing web applications.
-                    Create and structure basic web pages using HTML and style them with CSS.
-                    Develop dynamic and interactive web pages using JavaScript, including DOM manipulation, form validation, and client-side scripting techniques.`,
+      description:
+        "Introduction au développement web : création de pages avec HTML et CSS, développement interactif avec JavaScript, et compréhension des concepts front-end et back-end.",
       difficulte: 2,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "DOM Manipulation",
+        "Responsive Design",
+        "Bootstrap",
+        "APIs",
+      ],
+      duration: "14 Hours",
     },
     {
       titre: "Python for Data Science, AI & Development",
       plateforme: "Coursera (IBM)",
-      cat: "COURSERA (IBM)",
+      cat: "COURSERA",
       date: "2025",
       image: Python_Data_Science,
       url: "https://coursera.org/share/12ef6d1161ebabe8bd0bc270f208d8f3",
       description:
-        "Apprentissage des bases des réseaux, du Web, de Linux et de Windows pour la cybersécurité.",
+        "Pratique de Python pour la Data Science et le développement IA : syntaxe, structures de données, programmation orientée objet, bibliothèques Pandas et NumPy, web scraping et utilisation d’API.",
       difficulte: 3,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Jupyter Notebooks",
+        "Web Scraping",
+        "REST APIs",
+        "OOP",
+        "Data Manipulation",
+        "Automation",
+      ],
+      duration: "25 Hours",
     },
     {
       titre: "Developing AI Applications with Python and Flask",
       plateforme: "Coursera (IBM)",
-      cat: "COURSERA (IBM)",
+      cat: "COURSERA",
       date: "2025",
       image: Developing_AI_With_Python_Flask,
       url: "https://coursera.org/share/9e097eac39d7c42bdb4fa1826f485bc5",
       description:
-        "Apprentissage des bases des réseaux, du Web, de Linux et de Windows pour la cybersécurité.",
+        "Développement d’applications IA avec Python et Flask : création de modules, tests unitaires, déploiement web, opérations CRUD et intégration des bibliothèques IBM Watson.",
       difficulte: 3,
-      focus: "Full-Stack AI Deployment",
-      stack: ["Python", "Flask", "IBM Watson", "Unit Testing"],
+      stack: [
+        "Python",
+        "Flask",
+        "IBM Watson",
+        "RESTful API",
+        "NLP",
+        "Web Applications",
+        "Unit Testing",
+        "Application Deployment",
+        "SDLC",
+      ],
+      duration: "11 Hours",
     },
   ];
 
   const nodes = [
     {
       id: "TryHackMe",
-      label: "PRACTICAL_LABS",
+      label: "Cyber-Sécurité",
       image: THM_BG,
       theme: {
         bg: "bg-red-500",
@@ -157,8 +235,8 @@ const Certifications = () => {
       },
     },
     {
-      id: "COURSERA (IBM)",
-      label: "THEORY_MODULES",
+      id: "COURSERA",
+      label: "Intelligence Artificielle",
       image: COURSERA_BG,
       theme: {
         bg: "bg-blue-500",
@@ -212,7 +290,7 @@ const Certifications = () => {
                       className={`absolute top-0 left-0 w-1 h-full ${node.theme.bg} shadow-[0_0_10px_currentColor] ${node.theme.text}`}
                     ></div>
                   )}
-                  {node.id} // {node.label}
+                  {node.id} - {node.label}
                 </button>
               );
             })}
@@ -350,37 +428,27 @@ const Certifications = () => {
                         </p>
                       </div>
 
-                      {/* SECTION 2 : TECH STACK & FOCUS (Conditionnel) */}
-                      <div className="grid grid-cols-2 gap-4">
-                        <div className="p-4 bg-black/40 border border-white/5">
-                          <h4 className="text-zinc-500 font-mono text-lg uppercase mb-2">
-                            Technical_Stack
-                          </h4>
-                          <div className="flex flex-wrap gap-2">
-                            {/* Exemple de tag si tu rajoutes "stack" dans ton objet plus tard */}
-                            {selectedCert.stack ? (
-                              selectedCert.stack.map((tech) => (
-                                <span
-                                  key={tech}
-                                  className="text-sm font-mono text-zinc-400 bg-white/5 px-2 py-1"
-                                >
-                                  {tech}
-                                </span>
-                              ))
-                            ) : (
-                              <span className="text-lg font-mono text-zinc-600 italic">
-                                Not_Specified
+                      {/* SECTION 2 : TECH STACK */}
+                      <div className="p-4 bg-black/40 border border-white/5">
+                        <h4 className="text-zinc-500 font-mono text-lg uppercase mb-2">
+                          Technical_Stack
+                        </h4>
+                        <div className="flex flex-wrap gap-2">
+                          {/* Exemple de tag si tu rajoutes "stack" dans ton objet plus tard */}
+                          {selectedCert.stack ? (
+                            selectedCert.stack.map((tech) => (
+                              <span
+                                key={tech}
+                                className="text-sm font-mono text-zinc-400 bg-white/5 px-2 py-1"
+                              >
+                                {tech}
                               </span>
-                            )}
-                          </div>
-                        </div>
-                        <div className="p-4 bg-black/40 border border-white/5">
-                          <h4 className="text-zinc-500 font-mono text-lg uppercase mb-2">
-                            Mission_Focus
-                          </h4>
-                          <p className="text-sm font-mono text-zinc-400">
-                            {selectedCert.focus || "Standard_Acquisition"}
-                          </p>
+                            ))
+                          ) : (
+                            <span className="text-lg font-mono text-zinc-600 italic">
+                              Not_Specified
+                            </span>
+                          )}
                         </div>
                       </div>
 
@@ -429,6 +497,7 @@ const CertifBadge = ({
   themeColor,
   index,
   difficulte,
+  duration,
 }) => {
   const Difficulty_Level = DIFFICULTY_CONFIG[difficulte] || {
     text: "text-zinc-400",
@@ -455,7 +524,7 @@ const CertifBadge = ({
           </span>
         </div>
 
-        {/* BARRES DE DIFFICULTÉ NETTOYÉES */}
+        {/* DIFFICULTY LEVEL */}
         <div className="flex flex-col items-end gap-1">
           <span
             className={`text-[9px] font-mono font-black tracking-widest ${Difficulty_Level.text} ${difficulte === 5 ? "animate-pulse" : ""}`}
@@ -479,13 +548,23 @@ const CertifBadge = ({
         {titre}
       </h3>
 
-      <div className="mt-8 flex justify-between items-end border-t border-white/5 pt-3 z-10 group-hover:border-white/20 transition-colors">
-        <span className="text-[9px] text-zinc-600 font-mono uppercase tracking-widest">
-          Status: <span className="text-green-500 animate-pulse">Verified</span>
-        </span>
-        <span className="text-[10px] font-mono font-bold text-white/50 group-hover:text-white/90 transition-colors">
+      <div className="mt-8 flex justify-between items-baseline border-t border-white/5 pt-3 z-10 group-hover:border-white/20 transition-colors">
+        {/* LEFT BLOCK */}
+        <div className="flex items-center gap-3 font-mono uppercase">
+          <span className="text-xs text-green-500 animate-pulse flex items-center gap-1.5">
+            <span className="w-1 h-1 bg-green-500 rounded-full"></span>
+            Completed
+          </span>
+
+          <span className="text-xs text-zinc-400 group-hover:text-white/70 border-l border-white/10 pl-3">
+            {duration || "12 Hours"}
+          </span>
+        </div>
+
+        {/* RIGHT BLOCK */}
+        <div className="text-base font-mono font-bold text-white/50 group-hover:text-white/90 transition-colors">
           {date}
-        </span>
+        </div>
       </div>
     </div>
   );
